@@ -1,5 +1,8 @@
 {
-    "title": "Boilerplate",
-    "cta": "Click me!",
-    "message": "Hello, world!"
+    "title": "Contact",
+    "root_title": "Contact",
+    "root_choice": "Are you...",
+    "parliamentarian_route_label": "A Parliamentarian or a representative of a parliamentarian",
+    "media_route_label": "A representative of the media",
+    "public_route_label": "A member of the public"
 }

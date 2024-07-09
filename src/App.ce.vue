@@ -1,37 +1,33 @@
 <template>
   <DebugBar v-if="debug"></DebugBar>
   <div class="flex flex-col justify-center items-center gap-8">
-    <img alt="PBO-DBP" :src="logoUrl" class="w-64" />
-    <ToolSplash />
+    <Panel :panel="treemap" :deployed="true"></Panel>
   </div>
 </template>
 
 <script>
 import { defineAsyncComponent } from 'vue'
-import logoUrl from "./assets/logo.svg?url";
-import ToolSplash from './components/ToolSplash.vue'
 import WrapperEventDispatcher from "./WrapperEventDispatcher.js"
 import { mapState, mapWritableState } from 'pinia'
-import Localizations from './stores/localizations.js'
+import Store from './stores/store.js'
+import Panel from "./components/Panel.vue"
 const DebugBar = defineAsyncComponent(() =>
   import("./components/DebugBar.vue")
 );
 
 export default {
   computed: {
-    logoUrl() {
-      return logoUrl
-    },
-    ...mapWritableState(Localizations, ['language']),
-    ...mapState(Localizations, ['strings']),
+
+    ...mapWritableState(Store, ['language']),
+    ...mapState(Store, ['strings', 'treemap']),
     debug() {
       return this.$root.debug;
     },
   },
 
   components: {
-    ToolSplash,
-    DebugBar
+    DebugBar,
+    Panel
   },
   mounted() {
     this.setPageTitle();

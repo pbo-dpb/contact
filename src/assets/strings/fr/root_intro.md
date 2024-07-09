@@ -1,0 +1,3 @@
+Le rôle du directeur parlementaire du budget (DPB) est d’appuyer le Parlement en fournissant des analyses — notamment des analyses portant sur les politiques macroéconomiques et budgétaires — dans le but d’améliorer la qualité des débats parlementaires et de promouvoir une plus grande transparence et responsabilité en matière budgétaire.
+
+Le DPB est un agent du Parlement indépendant et non partisan. Le titulaire actuel du poste est [Yves Giroux](https://www.pbo-dpb.ca/fr/about--a-propos), dont le mandat a commencé le 5 septembre 2018. Environ 40 employés contribuent aux analyses qu’il réalise et aux rapports qu’il rédige.

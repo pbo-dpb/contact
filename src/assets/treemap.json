@@ -1,0 +1,65 @@
+{
+    "title": "root_title",
+    "contents": [
+        {
+            "type": "string",
+            "value": "root_intro",
+            "presentation": "default"
+        },
+        {
+            "type": "string",
+            "value": "root_choice",
+            "presentation": "choice"
+        }
+    ],
+    "panels": [
+        {
+            "title": "parliamentarian_route_label",
+            "contents": [],
+            "panels": [
+                {
+                    "title": "request_a_briefing_label",
+                    "contents": [
+                        {
+                            "type": "string",
+                            "value": "root_intro"
+                        }
+                    ],
+                    "panels": []
+                }
+            ]
+        },
+        {
+            "title": "media_route_label",
+            "contents": [],
+            "panels": [
+                {
+                    "title": "request_a_briefing_label",
+                    "contents": [
+                        {
+                            "type": "string",
+                            "value": "root_intro"
+                        }
+                    ],
+                    "panels": []
+                }
+            ]
+        },
+        {
+            "title": "public_route_label",
+            "contents": [],
+            "panels": [
+                {
+                    "title": "request_a_briefing_label",
+                    "contents": [
+                        {
+                            "type": "string",
+                            "value": "root_intro"
+                        }
+                    ],
+                    "panels": []
+                }
+            ]
+        }
+    ]
+}

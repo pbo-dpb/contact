@@ -4,15 +4,15 @@
         <div class="font-mono text-gray-800 dark:text-white text-center">🔧 DEBUG</div>
         <Button @click="language = (language == 'en') ? 'fr' : 'en'">{{
             language ==
-            'en'
-            ? 'fr' : 'en' }}</Button>
+                'en'
+                ? 'fr' : 'en' }}</Button>
     </section>
 </template>
-  
+
 <script>
 import { mapWritableState } from 'pinia'
 import Button from './Button.vue'
-import Localizations from '../stores/localizations.js'
+import Localizations from '../stores/store.js'
 
 export default {
     computed: {
