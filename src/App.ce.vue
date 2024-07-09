@@ -1,7 +1,7 @@
 <template>
   <DebugBar v-if="debug"></DebugBar>
   <div class="flex flex-col justify-center items-center gap-8">
-    <Panel :panel="treemap" :deployed="true"></Panel>
+    <Panel></Panel>
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
   computed: {
 
     ...mapWritableState(Store, ['language']),
-    ...mapState(Store, ['strings', 'treemap']),
+    ...mapState(Store, ['strings',]),
     debug() {
       return this.$root.debug;
     },

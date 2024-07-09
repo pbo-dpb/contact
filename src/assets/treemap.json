@@ -2,62 +2,124 @@
     "title": "root_title",
     "contents": [
         {
-            "type": "string",
             "value": "root_intro",
             "presentation": "default"
         },
         {
-            "type": "string",
             "value": "root_choice",
-            "presentation": "choice"
-        }
-    ],
-    "panels": [
-        {
-            "title": "parliamentarian_route_label",
-            "contents": [],
+            "presentation": "choice",
             "panels": [
                 {
-                    "title": "request_a_briefing_label",
+                    "title": "parliamentarian_route_label",
                     "contents": [
                         {
-                            "type": "string",
-                            "value": "root_intro"
+                            "type": "empty",
+                            "panels": [
+                                {
+                                    "title": "request_an_analysis",
+                                    "contents": [
+                                        {
+                                            "value": "request_an_analysis_blurb"
+                                        },
+                                        {
+                                            "presentation": "choice",
+                                            "value": "request_an_analysis_choice",
+                                            "panels": [
+                                                {
+                                                    "title": "request_an_analysis_eco_fiscal_analysis",
+                                                    "contents": [
+                                                        {
+                                                            "value": "request_an_analysis_eco_fiscal_analysis_blurb"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "title": "request_an_analysis_epc",
+                                                    "contents": [
+                                                        {
+                                                            "value": "request_an_analysis_epc_blurb"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "parliamentarian_meeting_with_pbo",
+                                    "contents": [
+                                        {
+                                            "value": "parliamentarian_meeting_with_pbo_blurb"
+                                        },
+                                        {
+                                            "value": "parliamentarian_meeting_generic"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "parliamentarian_request_a_briefing",
+                                    "contents": [
+                                        {
+                                            "value": "parliamentarian_request_a_briefing_blurb"
+                                        },
+                                        {
+                                            "value": "parliamentarian_meeting_generic"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "parliamentarian_any_other",
+                                    "contents": [
+                                        {
+                                            "value": "parliamentarian_meeting_generic"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
-                    ],
-                    "panels": []
-                }
-            ]
-        },
-        {
-            "title": "media_route_label",
-            "contents": [],
-            "panels": [
+                    ]
+                },
                 {
-                    "title": "request_a_briefing_label",
+                    "title": "media_route_label",
                     "contents": [
                         {
-                            "type": "string",
-                            "value": "root_intro"
+                            "value": "media_general_blurb"
+                        },
+                        {
+                            "value": "media_choice",
+                            "presentation": "choice",
+                            "panels": [
+                                {
+                                    "title": "request_an_interview",
+                                    "contents": [
+                                        {
+                                            "value": "media_blurb"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "request_additional_information",
+                                    "contents": [
+                                        {
+                                            "value": "media_blurb"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "subscribe_to_publications",
+                                    "contents": [
+                                        {
+                                            "value": "subscribe_to_notifications"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
-                    ],
-                    "panels": []
-                }
-            ]
-        },
-        {
-            "title": "public_route_label",
-            "contents": [],
-            "panels": [
+                    ]
+                },
                 {
-                    "title": "request_a_briefing_label",
-                    "contents": [
-                        {
-                            "type": "string",
-                            "value": "root_intro"
-                        }
-                    ],
-                    "panels": []
+                    "title": "public_route_label",
+                    "contents": []
                 }
             ]
         }

@@ -1,0 +1,3 @@
+During the months before a federal election the Parliamentary Budget Officer (PBO) responds to requests from political parties and independent members of the House of Commons, to estimate the financial cost of election campaign proposals.
+
+To learn more about the PBO’s role in providing cost estimates for election campaign proposals, visit the [About EPC page](https://www.pbo-dpb.ca/en/about-epc--a-propos-cpe).

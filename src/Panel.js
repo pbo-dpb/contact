@@ -6,8 +6,6 @@ export default class Panel {
         this.contents = payload.contents.map(element => {
             return new Content(element);
         });
-        this.panels = payload.panels.map(element => {
-            return new Panel(element);
-        });
+
     }
 }

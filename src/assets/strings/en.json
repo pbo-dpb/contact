@@ -1,8 +1,23 @@
 {
     "title": "Contact",
     "root_title": "Contact",
-    "root_choice": "Are you...",
-    "parliamentarian_route_label": "A Parliamentarian or a representative of a parliamentarian",
-    "media_route_label": "A representative of the media",
-    "public_route_label": "A member of the public"
+    "root_choice": "I'm a...",
+    "parliamentarian_route_label": "Parliamentarian, or the representative of a parliamentarian",
+    "media_route_label": "Media representative",
+    "public_route_label": "Member of the public",
+    "request_an_interview": "Request an interview",
+    "request_additional_information": "Request additional information",
+    "subscribe_to_publications": "Subscribe to publications",
+    "media_choice": "Select the subject of your request.",
+    "media_general_blurb": "The PBO engages with the media to improve the quality of parliamentary debate and promotes greater budgetary transparency and accountability.",
+    "parliamentarian_meeting_with_pbo": "Request a meeting with the PBO",
+    "parliamentarian_meeting_with_pbo_blurb": "Are you interested in learning more about our services and how we can support your work and help you better serve your constituents?",
+    "request_an_analysis": "Request an analysis",
+    "request_an_analysis_choice": "What type of analysis are you requesting?",
+    "request_an_analysis_blurb": "The PBO's enabling legislation establishes the types of analysis requests that can be undertaken. Please indicate below the type of analysis you wish to request.",
+    "parliamentarian_request_a_briefing": "Request a briefing or more information on a specific report",
+    "parliamentarian_any_other": "Any other request",
+    "request_an_analysis_eco_fiscal_analysis": "Economic and/or fiscal analysis",
+    "request_an_analysis_epc": "Estimation of the financial cost of an election campaign proposal",
+    "parliamentarian_meeting_generic": "Contact the Office of the parliamentary budget officer [email](mailto:pbo-dpb@parl.gc.ca) or by phone at [613-992-8026](tel:+16139928026)."
 }

@@ -25,12 +25,30 @@ export default defineStore('store', {
     state: () => ({
         language: document.documentElement.lang,
         iStrings: { en, fr },
-        treemap: new Panel(treemap)
+        treemap: new Panel(treemap),
+        stack: [new Panel(treemap)]
     }),
 
     getters: {
         strings(state) {
             return state.iStrings[state.language];
         },
+        currentPanel: (state) => state.stack.length ? state.stack[state.stack.length - 1] : state.treemap,
+        previousPanel: (state) => {
+            return state.stack.length > 1 ? state.stack[state.stack.length - 2] : null
+        }
     },
+
+    actions: {
+        pushToStack(panel) {
+            this.stack = [...
+                this.stack,
+                panel
+            ]
+        },
+        popLastFromStack() {
+            this.stack.pop()
+        }
+    },
+
 })
