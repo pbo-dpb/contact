@@ -11,7 +11,7 @@
     "media_choice": "Select the subject of your request.",
     "media_general_blurb": "The PBO engages with the media to improve the quality of parliamentary debate and promotes greater budgetary transparency and accountability.",
     "parliamentarian_meeting_with_pbo": "Request a meeting with the PBO",
-    "parliamentarian_meeting_with_pbo_blurb": "Are you interested in learning more about our services and how we can support your work and help you better serve your constituents?",
+    "parliamentarian_meeting_with_pbo_content": "Are you interested in learning more about our services and how we can support your work and help you better serve your constituents?",
     "request_an_analysis": "Request an analysis",
     "request_an_analysis_choice": "What type of analysis are you requesting?",
     "request_an_analysis_blurb": "The PBO's enabling legislation establishes the types of analysis requests that can be undertaken. Please indicate below the type of analysis you wish to request.",
@@ -19,5 +19,15 @@
     "parliamentarian_any_other": "Any other request",
     "request_an_analysis_eco_fiscal_analysis": "Economic and/or fiscal analysis",
     "request_an_analysis_epc": "Estimation of the financial cost of an election campaign proposal",
-    "parliamentarian_meeting_generic": "Contact the Office of the parliamentary budget officer [email](mailto:pbo-dpb@parl.gc.ca) or by phone at [613-992-8026](tel:+16139928026)."
+    "parliamentarian_meeting_generic": "Contact the Office of the parliamentary budget officer [email](mailto:pbo-dpb@parl.gc.ca) or by phone at [613-992-8026](tel:+16139928026).",
+    "public_general_blurb": "Thank you for contacting the Office of the Parliamentary Budget Officer. To help you direct your enquiry, please select the reason why you wish to contact us.",
+    "public_general_choice": "You would like to contact the PBO to...",
+    "public_speaking_request": "Make a speaking engagement",
+    "public_request_an_analysis": "Request an analysis",
+    "public_request_an_analysis_content": "As per the Parliamentary Act, the PBO can only accept requests from Parliamentarians and committees. While we value and respect the engagement of all citizens, it is essential to clarify that our resources and capacity are dedicated to fulfilling our legislative mandate effectively.",
+    "public_accessibility_feedback": "Provide feedback about accessibility or request alternate formats of our reports",
+    "public_technical_feedback": "Obtain technical assistance or report a technical issue",
+    "public_technical_feedback_content": "For technical problems (for example, broken links, error messages, etc.) or if you have questions or comments regarding the website, the online research tools or open source projects, please contact the Office of the parliamentary budget officer at [pbo-dpb@parl.gc.ca](mailto:pbo-dpb@parl.gc.ca).",
+    "public_any_other": "Any other request",
+    "public_any_other_content": "If you have any other questions or requests, please contact the Office of the parliamentary budget officer at [pbo-dpb@parl.gc.ca](mailto:pbo-dpb@parl.gc.ca)."
 }

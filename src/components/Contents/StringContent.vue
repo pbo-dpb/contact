@@ -1,6 +1,6 @@
 <template>
 
-    <div v-html="html" class="prose dark:prose-invert max-w-none"
+    <div v-html="html" class="prose dark:prose-invert max-w-none prose-a:text-sky-800 dark:prose-a:text-sky-200"
         :class="{ 'prose-p:font-semibold prose-p:text-sky-800': content.presentation === 'choice' }">
     </div>
 

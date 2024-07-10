@@ -29,7 +29,7 @@
                                                     "title": "request_an_analysis_eco_fiscal_analysis",
                                                     "contents": [
                                                         {
-                                                            "value": "request_an_analysis_eco_fiscal_analysis_blurb"
+                                                            "value": "request_an_analysis_eco_fiscal_analysis_content"
                                                         }
                                                     ]
                                                 },
@@ -37,7 +37,7 @@
                                                     "title": "request_an_analysis_epc",
                                                     "contents": [
                                                         {
-                                                            "value": "request_an_analysis_epc_blurb"
+                                                            "value": "request_an_analysis_epc_content"
                                                         }
                                                     ]
                                                 }
@@ -49,7 +49,7 @@
                                     "title": "parliamentarian_meeting_with_pbo",
                                     "contents": [
                                         {
-                                            "value": "parliamentarian_meeting_with_pbo_blurb"
+                                            "value": "parliamentarian_meeting_with_pbo_content"
                                         },
                                         {
                                             "value": "parliamentarian_meeting_generic"
@@ -60,7 +60,7 @@
                                     "title": "parliamentarian_request_a_briefing",
                                     "contents": [
                                         {
-                                            "value": "parliamentarian_request_a_briefing_blurb"
+                                            "value": "parliamentarian_request_a_briefing_content"
                                         },
                                         {
                                             "value": "parliamentarian_meeting_generic"
@@ -107,11 +107,10 @@
                                 },
                                 {
                                     "title": "subscribe_to_publications",
-                                    "contents": [
-                                        {
-                                            "value": "subscribe_to_notifications"
-                                        }
-                                    ]
+                                    "redirects": {
+                                        "en": "https://www.pbo-dpb.ca/en/notifications--notifications",
+                                        "fr": "https://www.pbo-dpb.ca/fr/notifications--notifications"
+                                    }
                                 }
                             ]
                         }
@@ -119,7 +118,63 @@
                 },
                 {
                     "title": "public_route_label",
-                    "contents": []
+                    "contents": [
+                        {
+                            "value": "public_general_blurb"
+                        },
+                        {
+                            "value": "public_general_choice",
+                            "presentation": "choice",
+                            "panels": [
+                                {
+                                    "title": "public_request_an_analysis",
+                                    "contents": [
+                                        {
+                                            "value": "public_request_an_analysis_content"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "public_speaking_request",
+                                    "contents": [
+                                        {
+                                            "value": "public_speaking_request_content"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "public_accessibility_feedback",
+                                    "redirects": {
+                                        "en": "https://www.pbo-dpb.ca/en/aiff--fdca",
+                                        "fr": "https://www.pbo-dpb.ca/fr/aiff--fdca"
+                                    }
+                                },
+                                {
+                                    "title": "subscribe_to_publications",
+                                    "redirects": {
+                                        "en": "https://www.pbo-dpb.ca/en/notifications--notifications",
+                                        "fr": "https://www.pbo-dpb.ca/fr/notifications--notifications"
+                                    }
+                                },
+                                {
+                                    "title": "public_technical_feedback",
+                                    "contents": [
+                                        {
+                                            "value": "public_technical_feedback_content"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "public_any_other",
+                                    "contents": [
+                                        {
+                                            "value": "public_any_other_content"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }
